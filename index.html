@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance School UI Kit - Extended</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Kit UI - École de Finance de Marché</h1>
+        <p class="lead">Guide de style des atomes et molécules du projet.</p>
+        <hr>
+    </header>
+
+    <section>
+        <h2>1. Couleurs (Atomes)</h2>
+        <div class="row">
+            <div class="swatch bg-primary">Primary</div>
+            <div class="swatch bg-primary-light">Primary Light</div>
+            <div class="swatch bg-secondary">Secondary</div>
+            <div class="swatch bg-secondary-dark">Secondary Dark</div>
+        </div>
+        <div class="row">
+            <div class="swatch bg-dark">Dark</div>
+            <div class="swatch bg-medium">Medium</div>
+            <div class="swatch bg-light">Light</div>
+        </div>
+        <div class="row">
+            <div class="swatch bg-success">Success</div>
+            <div class="swatch bg-danger">Danger</div>
+            <div class="swatch bg-warning">Warning</div>
+            <div class="swatch bg-info">Info</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Typographie (Atomes)</h2>
+        <h1>Titre Principal H1</h1>
+        <h2>Sous-titre H2</h2>
+        <h3>Section H3</h3>
+        <h4>Sous-section H4</h4>
+        <h5>Petit titre H5</h5>
+        <p class="lead">Paragraphe lead : utilisé pour les introductions importantes.</p>
+        <p>Paragraphe standard : utilisé pour le corps du texte. Lisibilité maximale pour les données financières.</p>
+        <p class="text-small">Texte d'aide ou mentions légales (Small).</p>
+        <blockquote>"Le risque vient de ne pas savoir ce que l'on fait." - Warren Buffett</blockquote>
+        <ul>
+            <li>Analyse quantitative</li>
+            <li>Gestion d'actifs</li>
+            <li>Produits dérivés</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Boutons (Atomes)</h2>
+        <div class="row">
+            <button class="btn primary">Bouton Primary</button>
+            <button class="btn outline-primary">Outline Primary</button>
+            <button class="btn ghost-primary">Ghost Primary</button>
+            <button class="btn pill-primary">Bouton Pill</button>
+        </div>
+        <div class="row">
+            <button class="btn primary sm">Petit</button>
+            <button class="btn primary">Normal</button>
+            <button class="btn primary lg">Grand</button>
+        </div>
+        <div class="row">
+            <button class="btn success">Success</button>
+            <button class="btn danger">Danger</button>
+            <button class="btn warning">Warning</button>
+            <button class="btn info">Info</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Badges et Tags (Atomes)</h2>
+        <div class="row">
+            <span class="badge badge-primary">Nouveau</span>
+            <span class="badge badge-secondary">Premium</span>
+            <span class="badge badge-success">Confirmé</span>
+            <span class="badge badge-danger">Fermé</span>
+            <span class="badge badge-warning">En attente</span>
+            <span class="badge badge-info">Info</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Alertes (Molécules)</h2>
+        <div class="alert alert-success">Action effectuée avec succès.</div>
+        <div class="alert alert-danger">Erreur critique lors de la transaction.</div>
+        <div class="alert alert-warning">Votre compte expire bientôt.</div>
+        <div class="alert alert-info">Nouveaux cours disponibles en ligne.</div>
+    </section>
+
+    <section>
+        <h2>6. Formulaires (Atomes)</h2>
+        <div class="form-group">
+            <label>Nom complet</label>
+            <input type="text" placeholder="Entrez votre nom">
+        </div>
+        <div class="form-group">
+            <label>Barre de recherche</label>
+            <input type="search" placeholder="Rechercher un actif..." class="input-search">
+        </div>
+        <div class="form-group">
+            <label>Spécialisation</label>
+            <select>
+                <option>Analyse financière</option>
+                <option>Trading haute fréquence</option>
+                <option>Gestion de risques</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="form-check">
+                <input type="checkbox" id="check">
+                <label for="check">Recevoir la newsletter</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="radio" id="r1">
+                <label for="r1">Option A</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Progression du module</label>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 65%;">65%</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>7. Tableaux (Molécules)</h2>
+        <table class="table-ui">
+            <thead>
+                <tr>
+                    <th>Actif</th>
+                    <th>Valeur</th>
+                    <th>Variation</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Action AAPL</td>
+                    <td>$182.40</td>
+                    <td class="text-success">+1.2%</td>
+                    <td><span class="badge badge-success">Actif</span></td>
+                </tr>
+                <tr>
+                    <td>Bitcoin</td>
+                    <td>$64,200</td>
+                    <td class="text-danger">-0.5%</td>
+                    <td><span class="badge badge-warning">Volatile</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>8. Navigation (Molécules)</h2>
+        <div class="breadcrumb">
+            <a href="#">Accueil</a> / <a href="#">Formations</a> / <span>Analyse Technique</span>
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>9. Listes (Molécules)</h2>
+        <div class="list-group">
+            <div class="list-item">
+                <strong>Algorithmes de Trading</strong>
+                <p class="text-small">Niveau Avancé • 12h de cours</p>
+            </div>
+            <div class="list-item">
+                <strong>Économétrie Appliquée</strong>
+                <p class="text-small">Niveau Intermédiaire • 8h de cours</p>
+            </div>
+            <div class="list-item">
+                <strong>Finance de l'Ombre</strong>
+                <p class="text-small">Niveau Expert • 15h de cours</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>10. Cartes (Molécules)</h2>
+        <div class="row">
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-content">
+                    <h3>Certification CFA</h3>
+                    <p>Préparez l'examen de référence internationale.</p>
+                    <button class="btn primary sm">Détails</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Webinaire Live</h3>
+                    <p>Rejoignez-nous ce soir pour une analyse de marché en direct.</p>
+                    <button class="btn outline-primary sm">S'inscrire</button>
+                </div>
+            </div>
+            <div class="card card-horizontal">
+                <div class="card-image-side"></div>
+                <div class="card-content">
+                    <h3>Analyste Senior</h3>
+                    <p>Jean Dupont, 15 ans d'expérience.</p>
+                </div>
+            </div>
+            <div class="card card-avatar">
+                <div class="avatar">JD</div>
+                <div class="card-content">
+                    <h3>Profil Mentor</h3>
+                    <p>Expert en produits dérivés.</p>
+                </div>
+            </div>
+            <div class="card card-overlay">
+                <div class="card-content">
+                    <h3>Finance 2.0</h3>
+                    <p>Le futur du trading haute fréquence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
